@@ -1,26 +1,47 @@
 .summer-ad {
-    background-image: url(girl-in-kayak.jpg);
+    background-image: url(girl-kayak-mountains.jpg);
+    background-size: cover;
   }
   
   h1 {
     font-size: 400%;
     text-align: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1em;
     color: #fc5c12;
   }
 
   .trips {
     background-color: hsla(19, 98%, 53%, 0.705);
-    margin: 2em;
+    margin: 3em;
     padding: 1em;
     width: 20%;
+    color: #1a3600;
+  }
+
+  .trip-length,
+  .trip-price {
+      font-weight: 500;
   }
 
   .trip-ads {
     width: 1140px;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 2em;
+    padding-bottom: 6em;
+  }
+
+  button {
+    background-color: #1a3600;
+    border: none;
+    border-radius: 50% 15% 50% 10%;
+    color: #fc5c12;
+    padding: 1em;
+    float: right;
+    font-size: 120%;
+  }
+
+  button:hover {
+    background-color: #fc5c12;
+    color: #1a3600;
   }
   
