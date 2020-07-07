@@ -2,7 +2,7 @@ import React from 'react';
 
 const trips = (props) => {
     return(
-        <div>
+        <div className="trips">
             <h2>Trip name: {props.name}</h2>
             <p>Trip length: {props.length}</p>
             <p>Trip price: {props.price}</p>

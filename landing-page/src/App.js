@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './App.css'
 import Trips from './Trips/Trips'
 
 class App extends Component {
@@ -12,8 +12,9 @@ class App extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="summer-ad">
         <h1>Paddle with us in Your Summer vacation!</h1>
+        <div className="trip-ads">
         <Trips
         name={this.state.trips[0].name}
         length={this.state.trips[0].length}
@@ -29,6 +30,7 @@ class App extends Component {
         length={this.state.trips[1].length}
         price={this.state.trips[1].price}
         />
+        </div>
       </div>
     )
   }
