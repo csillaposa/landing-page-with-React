@@ -12,7 +12,7 @@ class App extends Component {
   };
   render() {
     return (
-      <div className="summer-ad">
+      <div>
         <h1>Paddle with us in Your Summer vacation!</h1>
         <div className="trip-ads">
         <Trips

@@ -1,12 +1,11 @@
-.summer-ad {
-    background-image: url(girl-kayak-mountains.jpg);
+body {
+    background-image: url(kayaker-mountains.jpg);
     background-size: cover;
   }
   
   h1 {
     font-size: 400%;
     text-align: center;
-    padding-top: 1em;
     color: #fc5c12;
   }
 
