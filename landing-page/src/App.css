@@ -1,5 +1,5 @@
 body {
-    background-image: url(kayaker-mountains.jpg);
+    background-image: url(girl-kayak-mountains.jpg);
     background-size: cover;
   }
   
@@ -11,7 +11,7 @@ body {
 
   .trips {
     background-color: hsla(19, 98%, 53%, 0.705);
-    margin: 3em;
+    margin: 4em;
     padding: 1em;
     width: 20%;
     color: #1a3600;
